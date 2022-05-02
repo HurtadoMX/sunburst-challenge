@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//unpkg.com/circlepack-chart"></script>
+  <!--<script src="../../dist/circlepack-chart.js"></script>-->
+
+  <style>body { margin: 0 }</style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="chart"></div>
+
+  <script>
+    const data = {
+      name: 'main',
+      color: 'magenta',
+      children: [{
+        name: 'a',
+        color: 'yellow',
+        size: 1
+      },{
+        name: 'b',
+        color: 'red',
+        children: [{
+          name: 'ba',
+          color: 'orange',
+          size: 1
+        }, {
+          name: 'bb',
+          color: 'blue',
+          children: [{
+            name: 'bba',
+            color: 'green',
+            size: 1
+          }, {
+            name: 'bbb',
+            color: 'pink',
+            size: 1
+          }]
+        }]
+      }]
+    };
+
+    CirclePack()
+      .data(data)
+      .size('size')
+      .color('color')
+      (document.getElementById('chart'));
+  </script>
+</body>
+</html>

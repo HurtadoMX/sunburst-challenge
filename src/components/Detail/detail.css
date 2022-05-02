@@ -1,0 +1,300 @@
+.banner {
+    margin-top: -90px;
+    background: #434978;
+    padding: 41px 97px 159px;
+    height: 150vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner .content {
+    max-width: 400px;
+}
+
+.banner .content h2 {
+    font-size: 3em;
+    color: #fff;
+}
+
+.banner .content p {
+    font-size: 1em;
+    color: #fff;
+}
+
+.banner .content a {
+    display: inline-block;
+    background: #fff;
+    color: #172dd3;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.banner .grafic {
+    position: absolute;
+    width: 400px;
+    margin-left: 300px;
+}
+
+svg{
+    margin-left: 180px !important;
+    margin-top: -256px !important;
+}
+
+
+
+
+@media (max-width: 1248px) {
+    .banner .grafic {
+        margin-top: 30px;
+        margin-left: 450px;
+
+        width: 650px;
+    }
+
+    .banner .content {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1210px) {
+    .banner .grafic {
+        margin-top: 30px;
+        margin-left: 430px;
+
+        width: 600px;
+    }
+
+    .banner .content {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 1135px) {
+    .banner .grafic {
+        margin-top: 30px;
+        margin-left: 400px;
+
+        width: 600px;
+    }
+
+    .banner .content {
+        max-width: 340px;
+    }
+}
+
+@media (max-width: 1097px) {
+    .banner .grafic {
+        margin-top: 30px;
+        margin-left: 400px;
+
+        width: 550px;
+    }
+
+    .banner .content {
+        max-width: 330px;
+    }
+}
+
+@media (max-width: 1056px) {
+    .banner .grafic {
+        margin-left: 400px;
+
+        margin-top: 20px;
+        width: 500px;
+
+    }
+
+    .banner .content {
+        width: 700px;
+    }
+}
+
+@media (max-width: 1027px) {
+    .banner .grafic {
+        margin-left: 380px;
+
+        margin-top: 20px;
+        width: 500px;
+
+    }
+
+    .banner .content {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 991px) {
+    header {
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+
+    .banner {
+        margin-top: 10px;
+        padding: 150px 20px 50px;
+        flex-direction: column-reverse;
+    }
+
+    .banner .grafic {
+        width: 100%;
+        height: 112%;
+        margin-bottom: 20px;
+
+        margin-left: 0;
+        max-width: 80%;
+    }
+
+    .banner .content h2 {
+        font-size: 2em;
+    }
+
+    .banner .content {
+        height: 40%;
+        margin: -30px;
+        max-width: 700px;
+        background: #434978;
+    }
+}
+
+@media (max-width: 785px) {
+
+    .banner .grafic {
+        width: 100%;
+        height: 112%;
+        margin-bottom: 20px;
+
+        margin-left: 0;
+        max-width: 80%;
+    }
+
+    .banner .content h2 {
+        font-size: 2em;
+    }
+
+    .banner .content {
+        height: 40%;
+        margin: 30px;
+        width: 600px;
+        background: #434978;
+    }
+}
+
+@media (max-width: 681px) {
+    header .search {
+        width: 100%;
+    }
+
+    .banner .grafic {
+        width: 100%;
+        height: 110%;
+        margin-bottom: 20px;
+
+        margin-left: 0;
+        max-width: 80%;
+    }
+
+    .banner .content h2 {
+        font-size: 2em;
+    }
+
+    .banner .content {
+        height: 40%;
+        margin: 100px;
+        width: 500px;
+        background: #434978;
+    }
+}
+
+@media (max-width: 600px) {
+    header .search {
+        width: 100%;
+    }
+
+    .banner .grafic {
+        margin-top: 30px;
+        width: 800px;
+    }
+}
+
+@media (max-width: 515px) {
+    header .search {
+        width: 100%;
+    }
+
+    .banner .grafic {
+        width: 100%;
+        height: 110%;
+        margin-bottom: 20px;
+
+        margin-left: 0;
+        max-width: 80%;
+    }
+
+    .banner .content h2 {
+        font-size: 2em;
+    }
+
+    .banner .content {
+        height: 40%;
+        margin: 190px;
+        font-size: 10px;
+        width: 350px;
+        background: #434978;
+    }
+}
+
+@media (max-width: 400px) {
+    header .search {
+        width: 100%;
+    }
+
+    .banner .grafic {
+        width: 100%;
+        height: 110%;
+        margin-bottom: 20px;
+
+        margin-left: 0;
+        max-width: 80%;
+    }
+
+    .banner .content h2 {
+        font-size: 2em;
+    }
+
+    .banner .content {
+        height: 40%;
+        margin: 200px;
+        font-size: 10px;
+        width: 300px;
+        background: #434978;
+    }
+}
+
+@media (max-width: 325px) {
+    header .search {
+        width: 100%;
+    }
+
+    .banner .grafic {
+        width: 110%;
+        height: 105%;
+        margin-bottom: 20px;
+
+        margin-left: 0;
+        max-width: 80%;
+    }
+
+    .banner .content h2 {
+        font-size: 2em;
+    }
+
+    .banner .content {
+        height: 40%;
+        margin: 250px;
+        font-size: 10px;
+        width: 250px;
+        background: #434978;
+    }
+}
