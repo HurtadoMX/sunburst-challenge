@@ -38,18 +38,15 @@ const Detail = () => {
   const handleTodos = () => {
     dispatch(limpiar());
     dispatch(getInfoTotalLista());
-    setMarca("Todos")
+    setMarca("Todos");
   };
 
   return (
     <div className="banner">
       <div className="content">
         <h2>Grafica Sunburts de Automoviles</h2>
-        
 
-        {marca !== "Volkswagen" ? (
-          null
-        ) : (
+        {marca !== "Volkswagen" ? null : (
           <p>
             Los carros Volkswagen son automoviles de origen Aleman mas
             especifico en Wolfsburgo y que su creador es: Frente aleman del
@@ -57,26 +54,28 @@ const Detail = () => {
           </p>
         )}
 
-        {marca !== "Nissan" ? (
-          null
-        ) : (
+        {marca !== "Nissan" ? null : (
           <p>
-            Los carros Nissan son automoviles de origen Japones y que su creador es: Yoshisuke Aikawa
+            Los carros Nissan son automoviles de origen Japones y que su creador
+            es: Yoshisuke Aikawa
           </p>
         )}
 
-        {marca !== "Chevrolet" ? (
-          null
-        ) : (
+        {marca !== "Chevrolet" ? null : (
           <p>
-           Chevrolet, también denominada Chevy, es una marca de automóviles y camiones con sede en Detroit, Estados Unidos perteneciente al grupo General Motors. Nació de la alianza de Louis Chevrolet y William Crapo Durant el 3 de noviembre de 1911, en los Estados Unidos, fabricando automóviles robustos.
+            Chevrolet, también denominada Chevy, es una marca de automóviles y
+            camiones con sede en Detroit, Estados Unidos perteneciente al grupo
+            General Motors. Nació de la alianza de Louis Chevrolet y William
+            Crapo Durant el 3 de noviembre de 1911, en los Estados Unidos,
+            fabricando automóviles robustos.
           </p>
         )}
-        {marca !== "Todos" ? (
-          null
-        ) : (
+        {marca !== "Todos" ? null : (
           <p>
-          Un automóvil o coche, es un vehículo mecánico de propulsión propia destinado al transporte de personas, generalmente con cuatro ruedas y capacidad entre una y nueve plazas. Las ruedas "delanteras" pueden moverse hacia los lados para permitir giros y tomar las curvas.
+            Un automóvil o coche, es un vehículo mecánico de propulsión propia
+            destinado al transporte de personas, generalmente con cuatro ruedas
+            y capacidad entre una y nueve plazas. Las ruedas "delanteras" pueden
+            moverse hacia los lados para permitir giros y tomar las curvas.
           </p>
         )}
 

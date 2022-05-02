@@ -5,18 +5,18 @@ import {
     Route,
   } from "react-router-dom";
 import App from '../../App';
+import Home from '../Home/Home';
 import Login from '../Login/Login';
+
+//No terminado, no se implemento las rutas privadas
 
 const AppRoutes = () => {
   return (
-    <BrowserRouter>
       <Routes>
         <Route path='/' element={<Login/>}/>
-        <Route path='/login' element={<Login/>}/>
         <Route path='/home' element={<App/>}/>
       </Routes>
         
-    </BrowserRouter>
   )
 }
 
